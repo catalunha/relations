@@ -1,0 +1,24 @@
+{
+  "autorun": false,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "RunServer",
+      "open": true,
+      "focus": false,
+      "command": "uv run python manage.py runserver"
+    },
+    {
+      "name": "Shell",
+      "open": true,
+      "focus": false,
+      "command": "uv run python manage.py shell"
+    },
+    {
+      "name": "bash",
+      "open": true,
+      "focus": true,
+      "command": "source .venv/bin/activate"
+    }
+  ]
+}
